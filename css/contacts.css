@@ -1,0 +1,28 @@
+h3{
+  margin-left: 20px;
+}
+p{
+  margin-left: 20px;
+}
+form input{
+  display: block;
+  margin: 20px;
+}
+.name-input{
+  width: 50%;
+  height: 30px;
+}
+.email-input{
+  width: 50%;
+  height: 30px;
+}
+.message-input{
+  width: 50%;
+  height: 150px;
+}
+.submit-button{
+  padding: 10px 20px;
+  border: none;
+  background: rgb(52, 154, 201);
+  border-radius: 4px;
+}

@@ -1,0 +1,105 @@
+.about{
+  height: 750px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.about h3{
+  text-align: center;
+  text-transform: uppercase;
+}
+.about .information img{
+  width: 30%;
+  height: 300px;
+  float: left; 
+  margin:  0 20px;
+}
+.about .information .information-details{
+  font-size: 18px;
+}
+.about .information .information-details p{
+  margin: 0;
+}
+@keyframes skills-detail {
+  0% {opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1)
+  }
+}
+@keyframes detail {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+.about .about-skills{
+  width: 100%;
+  height: 200px;
+  margin-left: 20px;
+}
+.about .about-skills h4{
+  margin-bottom: 0;
+}
+.about .about-skills .skills-detail{
+ position: relative;
+ width: 30%;
+ height: 100%;
+ overflow: hidden;
+ color: black;
+ float: left;
+ margin: 10px;
+}
+.about .about-skills .skills-detail img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: skills-detail 3s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+.about .about-skills .skills-detail .detail{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: whitesmoke;
+  color: black;
+  opacity: 1;
+  animation: detail 3s afterwards;
+  animation-iteration-count: infinite;
+}
+.about .interests{
+  margin-top: 30px;
+}
+.about .interests h4{
+  margin-bottom: 0;
+}
+i{
+  font-size: 30px;
+  margin-right: 8px;
+}
+.fa-whatsapp{
+  color: green;
+  text-decoration: none;
+}
+.fa-google{
+  color: #D14836;
+  text-decoration: none;
+  border: none;
+}
+.fa-phone{
+  color: #25D366;
+
+}
+a{
+  text-decoration: none;
+}

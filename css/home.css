@@ -1,0 +1,149 @@
+body marquee h2{
+  text-transform: uppercase;
+}
+.profiles{
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 90%;
+  height: auto;
+  background: url("../images/1.jpg");
+  backdrop-filter: blur(10px);
+  margin-bottom: 40px;
+}
+.profiles h2{
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.profiles .dev-profile{
+  float: left;
+  height: 450px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.2);
+  margin: 10px;
+  padding-bottom: 10px;
+  background: rgba(245, 245, 245, 0.428);
+  overflow: hidden;
+}
+
+.profiles .dev-profile img{
+  height: 60%;
+  width: 100%;
+}
+@media (max-width: 700px){
+  .profiles .dev-profile {
+    max-width: 160px;
+    max-height: 300px;
+  }
+  .profiles .dev-profile img{
+    height: 40%;
+  }
+  .profiles .dev-profile h3{
+    margin: 5px;
+  }
+  .profiles .dev-profile p{
+    margin: 5px;
+  }
+}
+@media (max-width: 800px){
+  .profiles .dev-profile {
+    max-width: 40%;
+    max-height: 400px;
+    overflow: hidden;
+  }
+  .profiles .dev-profile img{
+    height: 60%;
+  }
+  .profiles .dev-profile h3{
+    margin: 5px;
+  }
+  .profiles .dev-profile p{
+    margin: 5px;
+  }
+  
+}
+.profiles .dev-profile button{
+  padding: 10px 20px;
+  border: none;
+  background: rgb(52, 154, 201);
+  border-radius: 4px;
+  color: whitesmoke;
+}
+.projects{
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.projects h3{
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.projects .projects-div{
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.projects .projects-div h3{
+  line-height: 0;
+}
+.projects .projects-div .projects-column{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background: rgb(183, 248, 207);
+  margin-bottom: 20px;
+}
+.projects .projects-div .projects-column img{
+  height: 100%;
+  float: left;
+  width: 50%;
+  border-radius: 20px 0 0 20px;
+}
+.projects .projects-div .projects-column p{
+  /* transform: translateY(30%); */
+  font-size: 20px;
+  line-height: 150%;
+}
+.skills{
+  width: 90%;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+.skills h3{
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.skills p{
+  line-height: 0;
+  text-decoration: underline;
+}
+.skills .banner{
+  height: 500px;
+  background: blue;
+  margin-bottom: 20px;
+}
+.skills .banner video{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer{
+  background: grey;
+  height: 200px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+footer div{
+  float: left;
+  width: 30%;
+  margin-left: 20px;
+}
+footer div iframe{
+  height: 120px;
+  width: 300px
+}
